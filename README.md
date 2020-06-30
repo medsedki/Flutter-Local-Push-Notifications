@@ -24,7 +24,7 @@ This project is a starting point for a Flutter application.
 
 ## Screen
 
-<img src="images/screen/screen.png" width="340" height="500" />
+<img src="images/screen/screen1.png" width="340" height="500" />
 
 
 ## A few resources to get you started if this is your first Flutter project:
