@@ -59,32 +59,31 @@ Future _showNotification(
 }) =>
     notifications.show(id, title, body, type);
 
-//Future<NotificationDetails> _icon(BuildContext context, Image icon) async {
-//  final iconPath = await saveImage(context, icon);
-//
-//  final androidPlatformChannelSpecifics = AndroidNotificationDetails(
-//    'big text channel id',
-//    'big text channel name',
-//    'big text channel description',
-//    largeIcon: iconPath,
-//    largeIconBitmapSource: BitmapSource.FilePath,
-//  );
-//  return NotificationDetails(androidPlatformChannelSpecifics, null);
-//}
-//
-//Future showIconNotification(
-//  BuildContext context,
-//  FlutterLocalNotificationsPlugin notifications, {
-//  @required String title,
-//  @required String body,
-//  @required Image icon,
-//  int id = 0,
-//}) async =>
-//    notifications.show(id, title, body, await _icon(context, icon));
+/*Future<NotificationDetails> _icon(BuildContext context, Image icon) async {
+  final iconPath = await saveImage(context, icon);
+
+  final androidPlatformChannelSpecifics = AndroidNotificationDetails(
+    'big text channel id',
+    'big text channel name',
+    'big text channel description',
+    largeIcon: iconPath,
+    largeIconBitmapSource: BitmapSource.FilePath,
+  );
+  return NotificationDetails(androidPlatformChannelSpecifics, null);
+}
+
+Future showIconNotification(
+  BuildContext context,
+  FlutterLocalNotificationsPlugin notifications, {
+  @required String title,
+  @required String body,
+  @required Image icon,
+  int id = 0,
+}) async =>
+    notifications.show(id, title, body, await _icon(context, icon));*/
 
 ////----
-/*
-Future<NotificationDetails> _image(BuildContext context, Image picture) async {
+/*Future<NotificationDetails> _image(BuildContext context, Image picture) async {
   final picturePath = await saveImage(context, picture);
 
   final bigPictureStyleInformation = BigPictureStyleInformation(
@@ -110,9 +109,11 @@ Future showImageNotification(
   @required Image picture,
   int id = 0,
 }) async =>
-    notifications.show(id, title, body, await _image(context, picture));
+    notifications.show(id, title, body, await _image(context, picture));*/
 
-Future<NotificationDetails> _imageAndIcon(
+//---
+
+/*Future<NotificationDetails> _imageAndIcon(
     BuildContext context, Image picture, Image icon) async {
   final iconPath = await saveImage(context, icon);
   final picturePath = await saveImage(context, picture);
@@ -144,5 +145,4 @@ Future showIconAndImageNotification(
   int id = 0,
 }) async =>
     notifications.show(
-        id, title, body, await _imageAndIcon(context, picture, icon));
-*/
+        id, title, body, await _imageAndIcon(context, picture, icon));*/

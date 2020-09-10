@@ -11,19 +11,19 @@ Future<String> saveImage(BuildContext context, Image image) {
   //=> Error :::
 
 
-//  image.image.resolve(ImageConfiguration()).addListener((imageInfo, _) async {
-//    final byteData =
-//    await imageInfo.image.toByteData(format: ImageByteFormat.png);
-//    final pngBytes = byteData.buffer.asUint8List();
-//
-//    final fileName = pngBytes.hashCode;
-//    final directory = await getApplicationDocumentsDirectory();
-//    final filePath = '${directory.path}/$fileName';
-//    final file = File(filePath);
-//    await file.writeAsBytes(pngBytes);
-//
-//    completer.complete(filePath);
-//  });
+/*  image.image.resolve(ImageConfiguration()).addListener((imageInfo, _) async {
+    final byteData =
+    await imageInfo.image.toByteData(format: ImageByteFormat.png);
+    final pngBytes = byteData.buffer.asUint8List();
+
+    final fileName = pngBytes.hashCode;
+    final directory = await getApplicationDocumentsDirectory();
+    final filePath = '${directory.path}/$fileName';
+    final file = File(filePath);
+    await file.writeAsBytes(pngBytes);
+
+    completer.complete(filePath);
+  });*/
 
   return completer.future;
 }

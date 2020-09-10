@@ -22,6 +22,8 @@ This project is a starting point for a Flutter application.
 
 - Mute the sound of the local notification.
 
+- Error with the image Bitmap import ..
+
 ## Screen
 
 <img src="images/screen/screen1.png" width="340" height="520" />

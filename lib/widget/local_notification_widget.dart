@@ -179,40 +179,40 @@ class _LocalNotificationWidgetState extends State<LocalNotificationWidget> {
           title('Other Feautures'),
           RaisedButton(
             child: Text('Show image (small)'),
-            onPressed: (){
-//              showIconNotification(
-//                context,
-//                notifications,
-//                icon: Image.asset('images/icon.jpg'),
-//                title: 'SmallImageTitle',
-//                body: 'SmallImageBody',
-//                id: 40,
-//              );
-            },
+            /*onPressed: (){
+              showIconNotification(
+                context,
+                notifications,
+                icon: Image.asset('images/icon.jpg'),
+                title: 'SmallImageTitle',
+                body: 'SmallImageBody',
+                id: 40,
+              );
+            },*/
           ),
-//          RaisedButton(
-//            child: Text('Show image (big)'),
-//            onPressed: () => showImageNotification(
-//              context,
-//              notifications,
-//              picture: Image.asset('images/push.jpg'),
-//              title: 'IconTitle',
-//              body: 'IconBody',
-//              id: 40,
-//            ),
-//          ),
-//          RaisedButton(
-//            child: Text('Show image (big+small)'),
-//            onPressed: () => showIconAndImageNotification(
-//              context,
-//              notifications,
-//              icon: Image.asset('images/icon.jpg'),
-//              picture: Image.asset('images/push.jpg'),
-//              title: 'IconAndImageTitle',
-//              body: 'IconAndImageBody',
-//              id: 40,
-//            ),
-//          ),
+          /*RaisedButton(
+            child: Text('Show image (big)'),
+            onPressed: () => showImageNotification(
+              context,
+              notifications,
+              picture: Image.asset('images/push.jpg'),
+              title: 'IconTitle',
+              body: 'IconBody',
+              id: 40,
+            ),
+          ),
+          RaisedButton(
+            child: Text('Show image (big+small)'),
+            onPressed: () => showIconAndImageNotification(
+              context,
+              notifications,
+              icon: Image.asset('images/icon.jpg'),
+              picture: Image.asset('images/push.jpg'),
+              title: 'IconAndImageTitle',
+              body: 'IconAndImageBody',
+              id: 40,
+            ),
+          ),*/
 
           const SizedBox(height: 60),
           title('Cancel'),
